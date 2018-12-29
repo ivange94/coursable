@@ -37,7 +37,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Courses"
+                    android:text="@string/dashboard_courses"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"/>
                 <View
@@ -49,7 +49,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="See or add courses"
+                    android:text="@string/dashboard_courses_instruction"
                     android:gravity="center"
                     android:padding="5dp"/>
             </LinearLayout>
@@ -80,7 +80,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Timetable"
+                    android:text="@string/dashboard_timetable"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"/>
                 <View
@@ -92,7 +92,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="See your timetable"
+                    android:text="@string/dashboard_timetable_instruction"
                     android:gravity="center"
                     android:padding="5dp"/>
             </LinearLayout>

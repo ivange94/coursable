@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Coursable</string>
+    <string name="edit_course_detail">Edit</string>
+    <string name="delete_course">Delete</string>
+    <string name="dashboard_courses">Courses</string>
+    <string name="dashboard_courses_instruction">See or add courses</string>
+    <string name="dashboard_timetable_instruction">See your timetable</string>
+    <string name="dashboard_timetable">Timetable</string>
+    <string name="label_course">Course</string>
+    <string name="label_courses">Courses</string>
+    <string name="label_course_code">Course Code:</string>
+    <string name="label_course_title">Course Title:</string>
+    <string name="label_course_instructor">Course Instructor:</string>
+    <string name="delete_course_warning_title">Delete Course?</string>
+    <string name="delete_course_warning_message">This will also delete the course entry from your timetable!</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
 </resources>

@@ -18,21 +18,28 @@
         </activity>
         <activity
             android:name=".ui.activity.CourseListActivity"
-            android:parentActivityName=".ui.activity.MainActivity"
-            android:label="Courses">
+            android:parentActivityName=".ui.activity.MainActivity">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.activity.MainActivity" />
         </activity>
-        <activity android:name=".ui.activity.TimetableActivity"
+        <activity
+            android:name=".ui.activity.TimetableActivity"
             android:parentActivityName=".ui.activity.MainActivity">
-
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ui.activity.MainActivity"/>
+                android:value=".ui.activity.MainActivity" />
         </activity>
+        <activity
+            android:name=".ui.activity.CourseDetailActivity"
+            android:parentActivityName=".ui.activity.CourseListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.CourseListActivity" />
+        </activity>
+        <activity android:name=".ui.activity.EditCourseActivity"></activity>
     </application>
 
 </manifest>
