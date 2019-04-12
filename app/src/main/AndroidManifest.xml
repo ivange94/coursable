@@ -39,7 +39,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.activity.CourseListActivity" />
         </activity>
-        <activity android:name=".ui.activity.EditCourseActivity"></activity>
+        <activity android:name=".ui.activity.EditCourseActivity" />
+        <activity android:name=".ui.activity.LoginActivity"
+            android:theme="@style/LoginTheme"></activity>
     </application>
 
 </manifest>
